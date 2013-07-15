@@ -1,0 +1,64 @@
+/*******************************************************************************
+ * Copyright (c) 2013, Jean-David Gadina - www.xs-labs.com
+ * All rights reserved.
+ * 
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met:
+ * 
+ *  -   Redistributions of source code must retain the above copyright notice,
+ *      this list of conditions and the following disclaimer.
+ *  -   Redistributions in binary form must reproduce the above copyright
+ *      notice, this list of conditions and the following disclaimer in the
+ *      documentation and/or other materials provided with the distribution.
+ *  -   Neither the name of 'Jean-David Gadina' nor the names of its
+ *      contributors may be used to endorse or promote products derived from
+ *      this software without specific prior written permission.
+ * 
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ * ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+ * LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ * CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ * SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ * INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+ * CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ * POSSIBILITY OF SUCH DAMAGE.
+ ******************************************************************************/
+
+/*!
+ * @file        Localizable.strings
+ * @copyright   (c) 2013, Jean-David Gadina - www.xs-labs.com
+ * @abstract    ...
+ */
+
+"AllSections"           = "All sections";
+"Section"               = "Section %@";
+"Section-1"             = "General user commands";
+"Section-1m"            = "DTrace tools";
+"Section-1ssl"          = "OpenSSL tools";
+"Section-1tcl"          = "Tcl tools";
+"Section-2"             = "UNIX system calls";
+"Section-3"             = "C library routines";
+"Section-3cc"           = "Common Crypto API";
+"Section-3pcap"         = "Packet capture library";
+"Section-3pm"           = "Perl modules";
+"Section-3ssl"          = "OpenSSL library routines";
+"Section-3tcl"          = "Tcl/Tk library routines";
+"Section-3x"            = "Curses-related library routines";
+"Section-4"             = "Special files and sockets";
+"Section-5"             = "File formats and conventions";
+"Section-5ssl"          = "SSL-specific configuration file formats";
+"Section-6"             = "Games";
+"Section-7"             = "Miscellaneous documentation";
+"Section-7ssl"          = "Miscellaneous SSL documentation";
+"Section-8"             = "System administration tools and techniques";
+"Section-9"             = "Kernel and programming style";
+"Section-n"             = "Tcl/Tk";
+"Section-ntcl"          = "Tcl/Tk";
+"Section-plist"         = "Property lists";
+"Section-legacy"        = "Legacy documentation";
+"UnknownSection"        = "Unknown section";
+"WindowTitle"           = "Manual Pages";
+"Version"               = "Version %@";

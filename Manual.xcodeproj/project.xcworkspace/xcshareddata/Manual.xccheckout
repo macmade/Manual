@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A6FCBF23-C3CC-4BDF-BF86-BFCD8C4F0911</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Manual</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BF437D4F-8F8B-42DC-A48E-A9B93DDE12E1</key>
+		<string>ssh://github.com/macmade/Manual.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Manual.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BF437D4F-8F8B-42DC-A48E-A9B93DDE12E1</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/macmade/Manual.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BF437D4F-8F8B-42DC-A48E-A9B93DDE12E1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BF437D4F-8F8B-42DC-A48E-A9B93DDE12E1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Manual</string>
+		</dict>
+	</array>
+</dict>
+</plist>
