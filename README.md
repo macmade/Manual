@@ -14,6 +14,11 @@ It automatically searches your computer for all available manuals, and displays 
  - Printing support
  - Filtering by sections
 
+Screenshot
+----------
+
+![Screenshot](http://www.xs-labs.com/uploads/image/misc/manual.png)
+
 Project Status
 --------------
 
