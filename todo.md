@@ -1,3 +1,4 @@
+<pre>
 This simple "to do list" is to be used to not only track improvements or fixes to the code, but also as a placeholder for planned activities so that all developers involved are aware of what is being planned. Additions, changes, or deletions (hopefully first discussed before doing so on the latter) are welcome by any participants in the project.
 
 The proposed priority scheme which would allow better handling of any "to do work" is as follows:
@@ -27,3 +28,4 @@ TEST PLAN
 Presently, the test plan can be considered as very loosely planned. The currently assigned developer (Marty Turner) will test the project on Mountain Lion and Mavericks. Because It will take some time to get Snow Leopard and Lion reinstalled on his test system, it will only be tested on Mountain Lion and Mavericks for the immediate future.
 
 The planned testing will involve manually testing the key features of the application. That is, simply navigating through each series of key user interface features and noting visually if they work as expected. There is currently no plan to create a series of documented test steps; the assumption will be that the developer or developers involved know enough about the functionality of the project to test it "reasonably" thorough. Although a good idea to formally document test procedures, it is not within the scope of the support of this project based on its current state as accessible in github.
+</pre>
