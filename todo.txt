@@ -12,9 +12,15 @@ LOW		the identified work item is deemed to be low priority. It will most likely 
 
 WORK ITEMS PLANNED TO DATE 
 
-1. Add a print facility per accepted Apple UI conventions. (HIGH)
+1. Modify Edit > Find to hold the found selection highlighting longer than it is now (less than .5 sec or less so it seems). This will help denote the found item much better. (HIGH)
 
 2. Sort the "All Selections" drop-down so they are easier to read. (LOW)
+
+COMPLETED ITEMS TO DATE
+
+1. Add a print facility per accepted Apple UI conventions. (HIGH) 
+
+	This was already in place but did not work in version 1.01 (the File > Print selection was greyed out and thus unelectable). It works as of version 1.02.
 
 TEST PLAN
 
