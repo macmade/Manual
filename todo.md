@@ -16,6 +16,8 @@ WORK ITEMS PLANNED TO DATE
 
 2. Sort the "All Selections" drop-down so they are easier to read. (LOW)
 
+3. Determine/fix why "xcodebuild" man is not found when "xcode-select" is. Determine what else might be missing as well and fix that too.
+
 COMPLETED ITEMS TO DATE
 
 1. Add a print facility per accepted Apple UI conventions. (HIGH) 
