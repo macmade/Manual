@@ -18,6 +18,8 @@ WORK ITEMS PLANNED TO DATE
 
 3. Determine/fix why "xcodebuild" man is not found when "xcode-select" is. Determine what else might be missing as well and fix that too.
 
+4. Determine/fix why the MacPorts "man port" is not found.
+
 COMPLETED ITEMS TO DATE
 
 1. Add a print facility per accepted Apple UI conventions. (HIGH) 
