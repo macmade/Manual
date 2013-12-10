@@ -1,16 +1,22 @@
+#Todo Items
+
+The items in this document outline work still to be done; the following sections outline the work-item structure.
+
+##Introduction
+
 This simple "to do list" is to be used to not only track improvements or fixes to the code, but also as a placeholder for planned activities so that all developers involved are aware of what is being planned. Additions, changes, or deletions (hopefully first discussed before doing so on the latter) are welcome by any participants in the project.
 
 The proposed priority scheme which would allow better handling of any "to do work" is as follows:
 
-URGENT	this category will not exist in this project due to the fact it exists in github.
+**URGENT**	this category will not exist in this project due to the fact it exists in github.
 
-HIGH	The identified work item is deemed to be high priority. If at all possible, the work item will be included in the next release of the project contents.
+**HIGH**	The identified work item is deemed to be high priority. If at all possible, the work item will be included in the next release of the project contents.
 
-MEDIUM	the identified work is deemed to be medium priority. It will be included only if the developers in the project believe that it is important enough to spend time on (which should elevate it to HIGH priority)
+**MEDIUM**	the identified work is deemed to be medium priority. It will be included only if the developers in the project believe that it is important enough to spend time on (which should elevate it to HIGH priority)
 
-LOW		the identified work item is deemed to be low priority. It will most likely only be included when escalated to a MEDIUM or a HIGH priority (or if the project developers involved are learning the code or just bored ;-) ).
+**LOW**		the identified work item is deemed to be low priority. It will most likely only be included when escalated to a MEDIUM or a HIGH priority (or if the project developers involved are learning the code or just bored ;-) ).
 
-WORK ITEMS PLANNED TO DATE 
+##WORK ITEMS PLANNED TO DATE 
 
 1. Modify Edit > Find to hold the found selection highlighting longer than it is now (less than .5 sec or less so it seems). This will help denote the found item much better. (HIGH)
 
@@ -20,13 +26,13 @@ WORK ITEMS PLANNED TO DATE
 
 4. Determine/fix why the MacPorts "man port" is not found.
 
-COMPLETED ITEMS TO DATE
+##COMPLETED ITEMS TO DATE
 
 1. Add a print facility per accepted Apple UI conventions. (HIGH) 
 
-	This was already in place but did not work in version 1.01 (the File > Print selection was greyed out and thus unelectable). It works as of version 1.02.
+	*This was already in place as of version 1.02 courtesy of the author but did not work in version 1.01 (the File > Print selection was greyed out and thus unelectable).* 
 
-TEST PLAN
+##TEST PLAN
 
 Presently, the test plan can be considered as very loosely planned. The currently assigned developer (Marty Turner) will test the project on Mountain Lion and Mavericks. Because It will take some time to get Snow Leopard and Lion reinstalled on his test system, it will only be tested on Mountain Lion and Mavericks for the immediate future.
 
