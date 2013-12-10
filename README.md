@@ -36,7 +36,7 @@ Repository Infos
 ----------------
 
     Owner:			Jean-David Gadina - XS-Labs
-    Maintainer:                 Marty Turner (Twitter @mdturner)
+    Maintainer:			Marty Turner (Twitter @mdturner)
     Web:			www.xs-labs.com
     Blog:			www.noxeos.com
     Twitter:		@macmade
