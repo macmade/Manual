@@ -26,6 +26,8 @@ The proposed priority scheme which would allow better handling of any "to do wor
 
 4. Determine/fix why the MacPorts "man port" is not found.
 
+5. The "Print" function is truncating paragraph text on the left and right margins of the printed output. Not only does this need fixing, but it seems prudent to also allow proper formatted output using methods as noted in web pages that describe how best/easiest to manually [print man pages](http://www.peachpit.com/articles/article.aspx?p=432434&seqNum=2). (HIGH)
+
 ##COMPLETED ITEMS TO DATE
 
 1. Add a print facility per accepted Apple UI conventions. (HIGH) 
