@@ -146,7 +146,7 @@
 #pragma clang diagnostic fatal "-Wpointer-arith"
 #pragma clang diagnostic fatal "-Wpointer-to-int-cast"
 #pragma clang diagnostic fatal "-Wprotocol"
-#pragma clang diagnostic fatal "-Wreadonly-setter-attrs"
+//#pragma clang diagnostic fatal "-Wreadonly-setter-attrs"
 #pragma clang diagnostic fatal "-Wredundant-decls"
 #pragma clang diagnostic fatal "-Wreorder"
 #pragma clang diagnostic fatal "-Wreturn-type"
