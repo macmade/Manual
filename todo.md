@@ -18,19 +18,19 @@ The proposed priority scheme which would allow better handling of any "to do wor
 
 ##WORK ITEMS PLANNED TO DATE 
 
-1. TODO002: Modify Edit > Find to hold the found selection highlighting longer than it is now (less than .5 sec or less so it seems). This will help denote the found item much better. (HIGH)
+TODO002: Modify Edit > Find to hold the found selection highlighting longer than it is now (less than .5 sec or less so it seems). This will help denote the found item much better. (HIGH)
 
-2. TODO003: Sort the "All Selections" drop-down so they are easier to read. (LOW)
+TODO003: Sort the "All Selections" drop-down so they are easier to read. (LOW)
 
-3. TODO004: Determine/fix why "xcodebuild" man is not found when "xcode-select" is. Determine what else might be missing as well and fix that too.
+TODO004: Determine/fix why "xcodebuild" man is not found when "xcode-select" is. Determine what else might be missing as well and fix that too.
 
-4. TODO005: Determine/fix why the MacPorts "man port" is not found.
+TODO005: Determine/fix why the MacPorts "man port" is not found.
 
-5. TODO006: The "Print" function is truncating paragraph text on the left and right margins of the printed output. Not only does this need fixing, but it seems prudent to also allow proper formatted output using methods as noted in web pages that describe how best/easiest to manually [print man pages](http://www.peachpit.com/articles/article.aspx?p=432434&seqNum=2). (HIGH)
+TODO006: The "Print" function is truncating paragraph text on the left and right margins of the printed output. Not only does this need fixing, but it seems prudent to also allow proper formatted output using methods as noted in web pages that describe how best/easiest to manually [print man pages](http://www.peachpit.com/articles/article.aspx?p=432434&seqNum=2). (HIGH)
 
 ##COMPLETED ITEMS TO DATE
 
-1. TODO001: Add a print facility per accepted Apple UI conventions. (HIGH) 
+TODO001: Add a print facility per accepted Apple UI conventions. (HIGH) 
 	*This was already in place as of version 1.02 courtesy of the author but did not work in version 1.01 (the File > Print selection was greyed out and thus unelectable).* 
 
 ##TEST PLAN
