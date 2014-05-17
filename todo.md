@@ -20,9 +20,9 @@ The proposed priority scheme which would allow better handling of any "to do wor
 
 TODO003: Sort the "All Selections" drop-down so they are easier to read. (LOW)
 
-TODO004: Determine/fix why "xcodebuild" man is not found when "xcode-select" is. Determine what else might be missing as well and fix that too.
+TODO004: Determine/fix why "xcodebuild" man is not found when "xcode-select" is. Determine what else might be missing as well and fix that too. (MEDIUM)
 
-TODO005: Determine/fix why the MacPorts "man port" is not found.
+TODO005: Determine/fix why the MacPorts "man port" is not found. (LOW)
 
 TODO006: The "Print" function is truncating paragraph text on the left and right margins of the printed output. Not only does this need fixing, but it seems prudent to also allow proper formatted output using methods as noted in web pages that describe how best/easiest to manually [print man pages](http://www.peachpit.com/articles/article.aspx?p=432434&seqNum=2). (HIGH)
 
