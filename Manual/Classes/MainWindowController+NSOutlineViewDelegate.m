@@ -83,6 +83,14 @@
     }
     
     [ _textView.textStorage setAttributedString: attributedContents ];
+    
+    // Make sure the highlight stays even though we have set incremental searching in the xib
+    NSMutableDictionary *dict = [NSMutableDictionary dictionaryWithDictionary:_textView.selectedTextAttributes];
+    [dict setObject:[NSColor blackColor] forKey:@"NSColor"];
+    [dict setObject:[NSColor yellowColor] forKey:@"NSBackgroundColor"];
+    _textView.selectedTextAttributes = dict;
+
+    
     [ lines release ];
     [ attributedContents release ];
     
