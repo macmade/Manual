@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2013, Jean-David Gadina - www.xs-labs.com
+ * Copyright (c) 2013-2014, Jean-David Gadina - www.xs-labs.com
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
