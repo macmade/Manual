@@ -35,8 +35,7 @@ TODO001: Add a print facility per accepted Apple UI conventions. (HIGH)
 	
 TODO002: Modify Edit > Find to hold the found selection highlighting longer than it is now (less than .5 sec or less so it seems). This will help denote the found item much better. (HIGH)  COMPLETED 2014/05/17
 
-TODO999: Added Debug.h/m files to do __PRETTY_FUNCION__ class/function tracing; this is quite useful in understanding
-How this code hangs together.  19May2014
+TODO999: Added Debug.h/m files to do \_\_PRETTY_FUNCTION\_\_ class/function tracing; this is quite useful in understanding how this code hangs together.  19May2014
 
 ##TEST PLAN
 
