@@ -37,13 +37,13 @@
 //  Debug.m
 //  Manual
 //
-//  Created by Marty on 19/05/2014.
+//  Created by Marty Turner on 19/05/2014.
 //
 
 #import "Debug.h"
 
 @implementation Debug
 
-// This is just a place holder for the .h file macros. 
+// This is just a place-holder for the .h file macros. 
 
 @end

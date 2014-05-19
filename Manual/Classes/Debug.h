@@ -37,26 +37,33 @@
 //  Debug.h
 //  Manual
 //
-//  Created by Marty on 19/05/2014.
+//  Created by Marty Turner on 19/05/2014.
 //  Copyright (c) 2014 DigiDNA. All rights reserved.
 //
 
 //
-// There are four basic ways to use the LOGFUNCNAME/NSLOG_FUNCAME macros:
+//  There are four basic ways to use the LOGFUNCNAME/NSLOG_FUNCAME macros:
 //
-// 1. At the top of a source-file. This will cause all functions in the .m file to emit their function names using NSLog in the
-//    console output window. Note that by default the LOGFUNCNAME macro has been defined in all functions within this project.
+//  1. At the top of a source-file.  This will cause all functions in the .m file
+//     to emit their function names using NSLog in the console output window.
+//     Note that by default the LOGFUNCNAME macro has been defined in all
+//     functions within this project.
 //
-// 2. Set LOGFUNCNAME just in a given function. This can allow you to see function call traffic in oft unused functions thus
-//    allowing them to be traced when called.
+//  2. Set LOGFUNCNAME just in a given function.  This can allow you to see
+//     function call traffic in oft unused functions thus allowing them to be
+//     traced when called.
 //
-// 3. Unset LOGFUNCNAME in functions that are frequently called. This will lessen the output to the console (and speed up the
-//    execution of the program).
+//  3. Unset LOGFUNCNAME in functions that are frequently called.  This will
+//     lessen the output to the console (and speed up the execution of the
+//     program).
 //
-// 4. Set or Unset LOGFUNCNAME at the top of the source file. This will allow seeing (or not0 call to all functions in the source file.
+//  4. Set or Unset LOGFUNCNAME at the top of the source file.  This will allow
+//     seeing (or not0 call to all functions in the source file.
 //
-// TBD Note too that defining a DEBUG or RELEASE build in the project will turn on or off respectively LOGFUNCNAME output for
-//     the entire project. For performance reasons, it is best to NOT use function call logging in a production (i.e. RELASE) build.
+//  TBD Note too that defining a DEBUG or RELEASE build in the project will
+//     turn on or off respectively LOGFUNCNAME output for the entire project.
+//     For performance reasons, it is best to NOT use function call logging in a
+//     production (i.e.  RELASE) build.
 //
 
 #import <Foundation/Foundation.h>
