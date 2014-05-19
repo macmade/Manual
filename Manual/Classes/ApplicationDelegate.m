@@ -29,18 +29,22 @@
 
 /*!
  * @file        ApplicationDelegate.m
- * @copyright   (c) 2013, Jean-David Gadina - www.xs-labs.com
+ * @copyright   (c) 2013-2014, Jean-David Gadina - www.xs-labs.com
  * @abstract    ...
  */
+
 
 #import "ApplicationDelegate.h"
 #import "AboutWindowController.h"
 #import "MainWindowController.h"
+#define LOGFUNCNAME
+#import "Debug.h"
 
 @implementation ApplicationDelegate
 
 - ( void )dealloc
 {
+    NSLOG_FUNCNAME;
     [ _aboutWindowController    release ];
     [ _mainWindowController     release ];
     
@@ -49,6 +53,8 @@
 
 - ( void )applicationDidFinishLaunching: ( NSNotification * )notification
 {
+    NSLOG_FUNCNAME;
+    
     ( void )notification;
     
     _mainWindowController = [ MainWindowController new ];
@@ -59,6 +65,8 @@
 
 - ( NSApplicationTerminateReply )applicationShouldTerminate: ( NSApplication * )sender
 {
+    NSLOG_FUNCNAME;
+    
     ( void )sender;
     
     return NSTerminateNow;
@@ -66,6 +74,8 @@
 
 - ( BOOL )applicationShouldTerminateAfterLastWindowClosed: ( NSApplication * )sender
 {
+    NSLOG_FUNCNAME;
+    
     ( void )sender;
     
     return YES;
@@ -73,6 +83,8 @@
 
 - ( IBAction)showAboutWindow: ( id )sender
 {
+    NSLOG_FUNCNAME; 
+    
     if( _aboutWindowController == nil )
     {
         _aboutWindowController = [ AboutWindowController new ];

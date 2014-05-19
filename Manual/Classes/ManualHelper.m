@@ -29,12 +29,13 @@
 
 /*!
  * @file        ManualHelper.m
- * @copyright   (c) 2013, Jean-David Gadina - www.xs-labs.com
+ * @copyright   (c) 2013-2014, Jean-David Gadina - www.xs-labs.com
  * @abstract    ...
  */
 
 #import "ManualHelper.h"
 #import "ManualPage.h"
+#import "Debug.h"
 
 static ManualHelper * __sharedInstance = nil;
 
@@ -44,6 +45,8 @@ static ManualHelper * __sharedInstance = nil;
 
 + ( ManualHelper * )sharedInstance
 {
+    NSLOG_FUNCNAME;
+    
     @synchronized( self )
     {
         if( __sharedInstance == nil )
@@ -57,6 +60,8 @@ static ManualHelper * __sharedInstance = nil;
 
 + ( id )allocWithZone:( NSZone * )zone
 {
+    NSLOG_FUNCNAME;
+    
     ( void )zone;
     
     @synchronized( self )
@@ -67,6 +72,8 @@ static ManualHelper * __sharedInstance = nil;
 
 - ( id )copyWithZone:( NSZone * )zone
 {
+    NSLOG_FUNCNAME;
+    
     ( void )zone;
     
     return self;
@@ -74,24 +81,32 @@ static ManualHelper * __sharedInstance = nil;
 
 - ( id )retain
 {
+    NSLOG_FUNCNAME;
+    
     return self;
 }
 
 - ( NSUInteger )retainCount
 {
+    NSLOG_FUNCNAME;
+    
     return UINT_MAX;
 }
 
 - ( oneway void )release
-{}
+{ NSLOG_FUNCNAME; }
 
 - ( id )autorelease
 {
+    NSLOG_FUNCNAME;
+    
     return self;
 }
 
 - ( id )init
 {
+    NSLOG_FUNCNAME;
+    
     if( ( self = [ super init ] ) )
     {
         _sections = [ [ NSMutableDictionary dictionaryWithCapacity: 25 ] retain ];
@@ -102,6 +117,8 @@ static ManualHelper * __sharedInstance = nil;
 
 - ( void )dealloc
 {
+    NSLOG_FUNCNAME;
+    
     [ _sections release ];
     
     [ super dealloc ];
@@ -109,6 +126,8 @@ static ManualHelper * __sharedInstance = nil;
 
 - ( void )getAllManualPages
 {
+    NSLOG_FUNCNAME;
+    
     NSTask              * task;
     NSPipe              * p;
     NSData              * data;

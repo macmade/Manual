@@ -1,10 +1,10 @@
 /*******************************************************************************
- * Copyright (c) 2012, Jean-David Gadina - www.xs-labs.com
+ * Copyright (c) 2013, Jean-David Gadina - www.xs-labs.com
  * All rights reserved.
- * 
+ *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions are met:
- * 
+ *
  *  -   Redistributions of source code must retain the above copyright notice,
  *      this list of conditions and the following disclaimer.
  *  -   Redistributions in binary form must reproduce the above copyright
@@ -13,7 +13,7 @@
  *  -   Neither the name of 'Jean-David Gadina' nor the names of its
  *      contributors may be used to endorse or promote products derived from
  *      this software without specific prior written permission.
- * 
+ *
  * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
  * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
  * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
@@ -27,40 +27,28 @@
  * POSSIBILITY OF SUCH DAMAGE.
  ******************************************************************************/
 
-#import "AboutWindowController.h"
-#import "BackgroundView.h"
-#import "Debug.h"
+/*!
+ * @header      MainWindowController+NSOutlineViewDelegate.h
+ * @copyright   (c) 2013, Jean-David Gadina - www.xs-labs.com
+ * @abstract    ...
+ */
 
-@implementation AboutWindowController
+//
+//  Debug.h
+//  Manual
+//
+//  Created by Marty on 19/05/2014.
+//  Copyright (c) 2014 DigiDNA. All rights reserved.
+//
 
-@synthesize backgroundView  = _backgroundView;
-@synthesize versionText     = _versionText;
+#import <Foundation/Foundation.h>
 
-- ( id )init
-{
-    NSLOG_FUNCNAME;
-    
-    return [ self initWithWindowNibName: @"AboutWindow" owner: self ];
-}
+@interface Debug : NSObject
 
-- ( void )dealloc
-{
-    NSLOG_FUNCNAME;
-    
-    [ _backgroundView   release ];
-    [ _versionText      release ];
-    
-    [ super dealloc ];
-}
-
-- ( void )awakeFromNib
-{
-    NSString * version;
-    
-    version = [ [ [ NSBundle mainBundle ] infoDictionary ] objectForKey: @"CFBundleShortVersionString" ];
-    
-    _backgroundView.backgroundColor = [ NSColor whiteColor ];
-    _versionText.stringValue        = [ NSString stringWithFormat: NSLocalizedString( @"Version", nil ), version ];
-}
+#ifdef LOGFUNCNAME
+#define NSLOG_FUNCNAME NSLog(@"%s", __PRETTY_FUNCTION__)
+#else
+#define NSLOG_FUNCNAME
+#endif
 
 @end

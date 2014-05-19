@@ -29,17 +29,20 @@
 
 /*!
  * @file        MainWindowController+NSOutlineViewDelegate.m
- * @copyright   (c) 2013, Jean-David Gadina - www.xs-labs.com
+ * @copyright   (c) 2013-2014, Jean-David Gadina - www.xs-labs.com
  * @abstract    ...
  */
 
 #import "MainWindowController+NSOutlineViewDelegate.h"
 #import "ManualPage.h"
+#import "Debug.h"
 
 @implementation MainWindowController( NSOutlineViewDelegate )
 
 - ( void )outlineViewSelectionDidChange: ( NSNotification * )notification
 {
+    NSLOG_FUNCNAME;
+    
     NSCell                    * cell;
     ManualPage                * page;
     NSString                  * contents;

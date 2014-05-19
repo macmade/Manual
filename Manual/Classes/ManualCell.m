@@ -29,16 +29,19 @@
 
 /*!
  * @file        ManualCell.m
- * @copyright   (c) 2013, Jean-David Gadina - www.xs-labs.com
+ * @copyright   (c) 2013-2014, Jean-David Gadina - www.xs-labs.com
  * @abstract    ...
  */
 
 #import "ManualCell.h"
+#import "Debug.h"
 
 @implementation ManualCell
 
 - ( id )init
 {
+    NSLOG_FUNCNAME;
+    
     if( ( self = [ super init ] ) )
     {}
     

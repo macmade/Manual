@@ -27,6 +27,7 @@
 		059B616A1477266F008C659D /* ManualHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 059B61691477266F008C659D /* ManualHelper.m */; };
 		05FF840814788911006080A7 /* SearchField.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FF840714788910006080A7 /* SearchField.m */; };
 		05FF840C14788A4B006080A7 /* MainWindowController+SearchFieldDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FF840B14788A4B006080A7 /* MainWindowController+SearchFieldDelegate.m */; };
+		40149D391929D8A200A17679 /* Debug.m in Sources */ = {isa = PBXBuildFile; fileRef = 40149D381929D8A200A17679 /* Debug.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,8 @@
 		05FF840914788A06006080A7 /* SearchFieldProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchFieldProtocol.h; sourceTree = "<group>"; };
 		05FF840A14788A4B006080A7 /* MainWindowController+SearchFieldDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MainWindowController+SearchFieldDelegate.h"; sourceTree = "<group>"; };
 		05FF840B14788A4B006080A7 /* MainWindowController+SearchFieldDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MainWindowController+SearchFieldDelegate.m"; sourceTree = "<group>"; };
+		40149D371929D8A200A17679 /* Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Debug.h; sourceTree = "<group>"; };
+		40149D381929D8A200A17679 /* Debug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Debug.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +173,8 @@
 				05FF840914788A06006080A7 /* SearchFieldProtocol.h */,
 				0513827D179496D100B578A9 /* BackgroundView.h */,
 				0513827E179496D100B578A9 /* BackgroundView.m */,
+				40149D371929D8A200A17679 /* Debug.h */,
+				40149D381929D8A200A17679 /* Debug.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 				059B616714772661008C659D /* ManualPage.m in Sources */,
 				059B616A1477266F008C659D /* ManualHelper.m in Sources */,
 				0548DA1B14773CC70098659E /* MainWindowController+NSOutlineViewDataSource.m in Sources */,
+				40149D391929D8A200A17679 /* Debug.m in Sources */,
 				0548DA1E14773CD30098659E /* MainWindowController+NSOutlineViewDelegate.m in Sources */,
 				0541C89617946BF600C820D7 /* MainWindowController.m in Sources */,
 				059AD79C14782062005F88B8 /* AboutWindowController.m in Sources */,

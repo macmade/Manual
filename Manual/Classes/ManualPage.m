@@ -29,19 +29,23 @@
 
 /*!
  * @file        ManualPage.m
- * @copyright   (c) 2013, Jean-David Gadina - www.xs-labs.com
+ * @copyright   (c) 2013-2014, Jean-David Gadina - www.xs-labs.com
  * @abstract    ...
  */
 
 #import "ManualPage.h"
+#import "Debug.h"
 
 @implementation ManualPage
 
 @synthesize section = _section;
 @synthesize name    = _name;
 
+
 + ( ManualPage * )manualWithName: ( NSString * )n section: ( NSString * )s
 {
+    NSLOG_FUNCNAME;
+    
     ManualPage * man;
     
     man = [ [ ManualPage alloc ] initWithName: n section: s ];
@@ -51,6 +55,8 @@
 
 - ( id )init
 {
+    NSLOG_FUNCNAME;
+    
     if( ( self = [ super init ] ) )
     {
         _contentsWidth = 80;
@@ -61,6 +67,8 @@
 
 - ( id )initWithName: ( NSString * )n section: ( NSString * )s
 {
+    NSLOG_FUNCNAME;
+    
     if( ( self = [ self init ] ) )
     {
         _section = [ s copy ];
@@ -72,6 +80,8 @@
 
 - ( void )dealloc
 {
+    NSLOG_FUNCNAME;
+    
     [ _section  release ];
     [ _name     release ];
     [ _about    release ];
@@ -82,11 +92,15 @@
 
 - ( NSString * )description
 {
+    NSLOG_FUNCNAME;
+
     return [ [ super description ] stringByAppendingFormat: @" - %@ (%@)", _name, _section ];
 }
 
 - ( NSString * )contentsForWidth: ( NSUInteger )width
 {
+    NSLOG_FUNCNAME;
+    
     _contentsWidth = width;
     
     return self.contents;
@@ -94,6 +108,8 @@
 
 - ( NSString * )contents
 {
+    NSLOG_FUNCNAME;
+    
     NSTask   * t;
     NSPipe   * p;
     NSData   * d;

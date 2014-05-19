@@ -28,11 +28,14 @@
  ******************************************************************************/
 
 #import "BackgroundView.h"
+#import "Debug.h"
 
 @implementation BackgroundView
 
 - ( void )dealloc
 {
+    NSLOG_FUNCNAME;
+    
     [ _backgroundColor  release ];
     [ _borderColor      release ];
     
@@ -41,6 +44,8 @@
 
 - ( NSColor * )backgroundColor
 {
+    NSLOG_FUNCNAME;
+    
     @synchronized( self )
     {
         return _backgroundColor;
@@ -49,6 +54,8 @@
 
 - ( void )setBackgroundColor: ( NSColor * )color
 {
+    NSLOG_FUNCNAME;
+    
     @synchronized( self )
     {
         if( color != _backgroundColor )
@@ -64,6 +71,8 @@
 
 - ( NSColor * )borderColor
 {
+    NSLOG_FUNCNAME;
+    
     @synchronized( self )
     {
         return _borderColor;
@@ -72,6 +81,8 @@
 
 - ( void )setBorderColor: ( NSColor * )color
 {
+    NSLOG_FUNCNAME;
+    
     @synchronized( self )
     {
         if( color != _borderColor )
@@ -87,6 +98,8 @@
 
 - ( void )drawRect: ( NSRect )rect
 {
+    NSLOG_FUNCNAME;
+    
     if( _backgroundColor != nil )
     {
         [ _backgroundColor setFill ];

@@ -29,17 +29,20 @@
 
 /*!
  * @file        MainWindowController+SearchFieldDelegate.m
- * @copyright   (c) 2013, Jean-David Gadina - www.xs-labs.com
+ * @copyright   (c) 2013-2014, Jean-David Gadina - www.xs-labs.com
  * @abstract    ...
  */
 
 #import "MainWindowController+SearchFieldDelegate.h"
 #import "MainWindowController+NSOutlineViewDelegate.h"
+#import "Debug.h"
 
 @implementation MainWindowController( SearchFieldDelegate )
 
 - ( void )searchFieldValueDidChange: ( SearchField * )searchField
 {
+    NSLOG_FUNCNAME; 
+    
     ( void )searchField;
     
     [ _outlineView reloadData ];

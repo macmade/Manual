@@ -29,7 +29,7 @@
 
 /*!
  * @file        AboutWindowController.m
- * @copyright   (c) 2013, Jean-David Gadina - www.xs-labs.com
+ * @copyright   (c) 2013-2014, Jean-David Gadina - www.xs-labs.com
  * @abstract    ...
  */
 
@@ -39,6 +39,7 @@
 #import "MainWindowController+NSOutlineViewDataSource.h"
 #import "MainWindowController+SearchFieldDelegate.h"
 #import "ManualHelper.h"
+#import "Debug.h"
 
 @implementation MainWindowController
 
@@ -52,6 +53,8 @@
 
 - ( id )init
 {
+    NSLOG_FUNCNAME;
+    
     if( ( self = [ super initWithWindowNibName: @"MainWindow" ] ) )
     {
         _cells          = [ [ NSMutableArray arrayWithCapacity: 1000 ] retain ];
@@ -63,6 +66,8 @@
 
 - ( void )dealloc
 {
+    NSLOG_FUNCNAME;
+    
     [ _loadingWindow    release ];
     [ _progressBar      release ];
     [ _outlineView      release ];
@@ -78,6 +83,8 @@
 
 - ( void )awakeFromNib
 {
+    NSLOG_FUNCNAME;
+    
     [ _searchField      setDelegate: self ];
     [ _label            setStringValue: @"" ];
     [ _loadingWindow    setPreventsApplicationTerminationWhenModal: NO ];
@@ -89,6 +96,8 @@
 
 - ( void )showWindow: ( id )sender
 {
+    NSLOG_FUNCNAME;
+    
     [ super showWindow: sender ];
     [ NSApp beginSheet: _loadingWindow modalForWindow: self.window modalDelegate: self didEndSelector: @selector( didEndSheet: returnCode: contextInfo: ) contextInfo: nil ];
     

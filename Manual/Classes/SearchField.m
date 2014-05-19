@@ -29,17 +29,20 @@
 
 /*!
  * @file        SearchField.m
- * @copyright   (c) 2013, Jean-David Gadina - www.xs-labs.com
+ * @copyright   (c) 2013-2014, Jean-David Gadina - www.xs-labs.com
  * @abstract    ...
  */
 
 #import "SearchField.h"
 #import "SearchFieldProtocol.h"
+#import "Debug.h" 
 
 @implementation SearchField
 
 - ( void )textDidChange: ( NSNotification * )notification
 {
+    NSLOG_FUNCNAME;
+    
     ( void )notification;
     
     if( self.delegate != nil && [ self.delegate respondsToSelector: @selector( searchFieldValueDidChange: ) ] )

@@ -29,7 +29,7 @@
 
 /*!
  * @file        MainWindowController+NSOutlineViewDataSource.m
- * @copyright   (c) 2013, Jean-David Gadina - www.xs-labs.com
+ * @copyright   (c) 2013-2014, Jean-David Gadina - www.xs-labs.com
  * @abstract    ...
  */
 
@@ -37,11 +37,14 @@
 #import "ManualHelper.h"
 #import "ManualPage.h"
 #import "ManualCell.h"
+#import "Debug.h"
 
 @implementation MainWindowController( NSOutlineViewDataSource )
 
 - ( NSInteger )outlineView: ( NSOutlineView * )outlineView numberOfChildrenOfItem: ( id )item
 {
+    NSLOG_FUNCNAME;
+    
     NSMutableArray * pages;
     NSDictionary   * sections;
     NSString       * section;
@@ -113,6 +116,8 @@
 
 - ( BOOL )outlineView: ( NSOutlineView * )outlineView isItemExpandable: ( id )item
 {
+    NSLOG_FUNCNAME;
+    
     ( void )outlineView;
     ( void )item;
     
@@ -121,6 +126,8 @@
 
 - ( id )outlineView: ( NSOutlineView * )outlineView child: ( NSInteger )index ofItem: ( id )item
 {
+    NSLOG_FUNCNAME;
+    
     ( void )outlineView;
     ( void )item;
     
@@ -134,6 +141,8 @@
 
 - ( id )outlineView: ( NSOutlineView * )outlineView objectValueForTableColumn: ( NSTableColumn * )tableColumn byItem: ( id )item
 {
+    NSLOG_FUNCNAME;
+    
     NSCell     * cell;
     ManualPage * page;
     
