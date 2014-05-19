@@ -26,12 +26,17 @@ TODO005: Determine/fix why the MacPorts "man port" is not found. (LOW)
 
 TODO006: The "Print" function is truncating paragraph text on the left and right margins of the printed output. Not only does this need fixing, but it seems prudent to also allow proper formatted output using methods as noted in web pages that describe how best/easiest to manually [print man pages](http://www.peachpit.com/articles/article.aspx?p=432434&seqNum=2). (HIGH)
 
+TODO999: There will be multiples of this "TODO" used to add/alter developer-oreinted functionality.
+
 ##COMPLETED ITEMS TO DATE
 
 TODO001: Add a print facility per accepted Apple UI conventions. (HIGH) 
 	*This was already in place as of version 1.02 courtesy of the author but did not work in version 1.01 (the File > Print selection was greyed out and thus unelectable).* 
 	
 TODO002: Modify Edit > Find to hold the found selection highlighting longer than it is now (less than .5 sec or less so it seems). This will help denote the found item much better. (HIGH)  COMPLETED 2014/05/17
+
+TODO999: Added Debug.h/m files to do __PRETTY_FUNCION__ class/function tracing; this is quite useful in understanding
+How this code hangs together.  19May2014
 
 ##TEST PLAN
 
