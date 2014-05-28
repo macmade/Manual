@@ -36,7 +36,7 @@
 #import "ApplicationDelegate.h"
 #import "AboutWindowController.h"
 #import "MainWindowController.h"
-//#define LOGFUNCNAME
+#define LOGFUNCNAME
 #import "Debug.h"
 
 @implementation ApplicationDelegate

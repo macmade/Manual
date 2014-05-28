@@ -60,6 +60,9 @@
 //  4. Set or Unset LOGFUNCNAME at the top of the source file.  This will allow
 //     seeing (or not0 call to all functions in the source file.
 //
+//  5, In Project or Target at the project level, in the "Preprocessor" section
+//     set LOGFUNCNAME=1
+//
 //  TBD Note too that defining a DEBUG or RELEASE build in the project will
 //     turn on or off respectively LOGFUNCNAME output for the entire project.
 //     For performance reasons, it is best to NOT use function call logging in a
@@ -70,10 +73,12 @@
 
 @interface Debug : NSObject
 
-#if defined (LOGFUNCNAME)
+#ifdef DEBUG
+#ifdef LOGFUNCNAME
 #define NSLOG_FUNCNAME NSLog(@"%s", __PRETTY_FUNCTION__)
-#else
+#endif // LOGFUNCNAME
+#else  // DEBUG
 #define NSLOG_FUNCNAME
-#endif
+#endif // DEBUG
 
 @end
