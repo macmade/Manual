@@ -93,4 +93,50 @@
     [ _aboutWindowController showWindow: sender ];
 }
 
+- ( BOOL )applicationWillTerminate: ( NSApplication * )sender
+{
+    NSLOG_FUNCNAME;
+    
+    ( void )sender;
+    
+    return YES;
+}
+
+- ( BOOL )applicationDidHide: ( NSApplication * )sender
+{
+    NSLOG_FUNCNAME;
+    
+    ( void )sender;
+    
+    return YES;
+}
+
+- ( BOOL )applicationDidUnhide: ( NSApplication * )sender
+{
+    NSLOG_FUNCNAME;
+    
+    ( void )sender;
+    
+    return YES;
+}
+
+- ( BOOL )applicationDidResignActive: ( NSApplication * )sender
+{
+    NSLOG_FUNCNAME;
+    
+    ( void )sender;
+    
+    return YES;
+}
+
+- ( BOOL )applicationDidBecomeActive: ( NSApplication * )sender
+{
+    NSLOG_FUNCNAME;
+    
+    ( void )sender;
+    
+    return YES;
+}
+
+
 @end
