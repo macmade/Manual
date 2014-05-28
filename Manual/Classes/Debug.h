@@ -73,12 +73,10 @@
 
 @interface Debug : NSObject
 
-#ifdef DEBUG
-#ifdef LOGFUNCNAME
+#if defined(LOGFUNCNAME) && defined(DEBUG)
 #define NSLOG_FUNCNAME NSLog(@"%s", __PRETTY_FUNCTION__)
-#endif // LOGFUNCNAME
 #else  // DEBUG
 #define NSLOG_FUNCNAME
-#endif // DEBUG
+#endif // LOGFUNCNAME
 
 @end
