@@ -38,7 +38,6 @@
 
 #import "Debug.h" 
 #import "ManualPage.h"
-#import "Debug.h"
 
 @implementation ManualPage
 

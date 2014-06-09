@@ -41,7 +41,6 @@
 #import "ManualHelper.h"
 #import "ManualPage.h"
 #import "ManualCell.h"
-#import "Debug.h"
 
 @implementation MainWindowController( NSOutlineViewDataSource )
 

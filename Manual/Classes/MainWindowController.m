@@ -43,7 +43,6 @@
 #import "MainWindowController+NSOutlineViewDataSource.h"
 #import "MainWindowController+SearchFieldDelegate.h"
 #import "ManualHelper.h"
-#import "Debug.h"
 
 @implementation MainWindowController
 

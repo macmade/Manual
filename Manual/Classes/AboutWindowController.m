@@ -33,7 +33,6 @@
 #import "Debug.h" 
 #import "AboutWindowController.h"
 #import "BackgroundView.h"
-#import "Debug.h"
 
 @implementation AboutWindowController
 

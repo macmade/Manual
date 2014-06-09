@@ -39,7 +39,6 @@
 #import "Debug.h"
 #import "MainWindowController+SearchFieldDelegate.h"
 #import "MainWindowController+NSOutlineViewDelegate.h"
-#import "Debug.h"
 
 @implementation MainWindowController( SearchFieldDelegate )
 

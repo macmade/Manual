@@ -39,7 +39,6 @@
 #import "Debug.h" 
 #import "SearchField.h"
 #import "SearchFieldProtocol.h"
-#import "Debug.h" 
 
 @implementation SearchField
 

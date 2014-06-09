@@ -39,7 +39,6 @@
 #import "Debug.h" 
 #import "ManualHelper.h"
 #import "ManualPage.h"
-#import "Debug.h"
 
 static ManualHelper * __sharedInstance = nil;
 

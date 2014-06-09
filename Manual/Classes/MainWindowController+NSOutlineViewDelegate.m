@@ -39,7 +39,6 @@
 #import "Debug.h" 
 #import "MainWindowController+NSOutlineViewDelegate.h"
 #import "ManualPage.h"
-#import "Debug.h"
 
 @implementation MainWindowController( NSOutlineViewDelegate )
 

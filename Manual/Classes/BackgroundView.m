@@ -32,7 +32,6 @@
 
 #import "Debug.h" 
 #import "BackgroundView.h"
-#import "Debug.h"
 
 @implementation BackgroundView
 
