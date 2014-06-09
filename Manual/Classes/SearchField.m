@@ -33,6 +33,10 @@
  * @abstract    ...
  */
 
+// uncomment this to log the class/method name in each method
+//#define LOGFUNCNAME
+
+#import "Debug.h" 
 #import "SearchField.h"
 #import "SearchFieldProtocol.h"
 #import "Debug.h" 

@@ -33,6 +33,10 @@
  * @abstract    ...
  */
 
+// uncomment this to log the class;method in a methods in this source file
+//#define LOGFUNCNAME
+
+#import "Debug.h"
 #import "MainWindowController.h"
 #import "MainWindowController+Private.h"
 #import "MainWindowController+NSOutlineViewDelegate.h"

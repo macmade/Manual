@@ -27,6 +27,10 @@
  * POSSIBILITY OF SUCH DAMAGE.
  ******************************************************************************/
 
+// uncomment this to log the class/method name in each method
+//#define LOGFUNCNAME
+
+#import "Debug.h" 
 #import "AboutWindowController.h"
 #import "BackgroundView.h"
 #import "Debug.h"

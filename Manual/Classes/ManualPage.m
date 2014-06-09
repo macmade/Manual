@@ -33,6 +33,10 @@
  * @abstract    ...
  */
 
+// uncomment this to log the class/method name in each method
+//#define LOGFUNCNAME
+
+#import "Debug.h" 
 #import "ManualPage.h"
 #import "Debug.h"
 
@@ -123,7 +127,7 @@
         [ t setLaunchPath: @"/bin/zsh" ];
         [ t setArguments: [ NSArray arrayWithObjects: @"-c", [ NSString stringWithFormat: @"man %@ %@ | col -b | awk '{print $0}'", _section, _name ], nil ] ];
         [ t setStandardOutput: p ];
-        [ t setEnvironment: [ NSDictionary dictionaryWithObjectsAndKeys: [ NSString stringWithFormat: @"%lu", _contentsWidth ], @"MANWIDTH", nil ] ];
+        [ t setEnvironment: [ NSDictionary dictionaryWithObjectsAndKeys: [ NSString stringWithFormat: @"%lu", _contentsWidth ], @"MANWIDTH=65", nil ] ];
         
         [ t launch ];
         

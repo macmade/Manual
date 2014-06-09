@@ -33,11 +33,13 @@
  * @abstract    ...
  */
 
+// uncomment this to log the class;method in a methods in this source file
+//#define LOGFUNCNAME
+
+#import "Debug.h"
 #import "ApplicationDelegate.h"
 #import "AboutWindowController.h"
 #import "MainWindowController.h"
-#define LOGFUNCNAME
-#import "Debug.h"
 
 @implementation ApplicationDelegate
 

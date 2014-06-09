@@ -33,8 +33,12 @@
  * @abstract    ...
  */
 
-#import "ManualCell.h"
+// uncomment this to log the class/method name in each method
+//#define LOGFUNCNAME
+
 #import "Debug.h"
+
+#import "ManualCell.h"
 
 @implementation ManualCell
 
