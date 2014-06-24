@@ -1,7 +1,7 @@
 Manual
 ======
 
-[![Build Status](https://travis-ci.org/macmade/Manual.svg?branch=master)](https://travis-ci.org/macmade/Manual)
+[![Build Status](https://img.shields.io/travis/macmade/Manual.svg?branch=master&style=flat)](https://travis-ci.org/macmade/Manual)
 
 About
 -----
