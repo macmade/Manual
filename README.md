@@ -49,4 +49,4 @@ Repository Info
 Installation
 ------------
 
-Copy the Manual.app file from this git repos **__TBD__** folder to your Mac's **/Applications** folder.
+Copy the **Manual.app** file from the **Xcode Project Navigator Products** folder to your Mac's **/Applications** folder. **(Installation package method coming "_soon_" :0). )**
