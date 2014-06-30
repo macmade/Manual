@@ -41,6 +41,8 @@ whether viewed on a screen or in printed output.)
 
 TODO999: Added Debug.h/m files to do \_\_PRETTY_FUNCTION\_\_ class/function tracing; this is quite useful in understanding how this code hangs together.  19May2014
 
+31Jun2014 Minor cleanup of the todo.md and readme.md files.
+
 ##TEST PLAN
 
 Presently, the test plan can be considered as very loosely planned. The currently assigned developer (Marty Turner) will test the project on Mountain Lion and Mavericks. Because It will take some time to get Snow Leopard and Lion reinstalled on his test system, it will only be tested on Mountain Lion and Mavericks for the immediate future.
