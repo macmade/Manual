@@ -49,4 +49,4 @@ Repository Info
 Installation
 ------------
 
-Copy the **Manual.app** file from the **Xcode Project Navigator Products** folder to your Mac's **/Applications** folder. **(Installation package method coming "_soon_" :0). )**
+Double click on the Manual.dmg file in the "Installation" directory and follow the instructions therein. 
