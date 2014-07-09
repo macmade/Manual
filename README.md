@@ -1,6 +1,8 @@
 Manual
 ======
 
+The source for Manual can be cloned or downloaded directly from [GitHub.](https://github.com/macmade/Manual) Alternatively, you can use the following graphic button to access it:
+
 [![Build Status](https://img.shields.io/travis/macmade/Manual.svg?branch=master&style=flat)](https://travis-ci.org/macmade/Manual)
 
 About
@@ -8,7 +10,7 @@ About
 
 **Manual is a GUI front-end for viewing UNIX manual pages.**
 
-It automatically searches your computer for all available manuals, and displays them in a nice way, ordered by sections.
+Manual automatically searches your computer for all available manuals, and displays them in a nice way, ordered by sections.
 
 **Features**
  - Live search for specific manual pages
@@ -48,5 +50,4 @@ Repository Info
 
 Installation
 ------------
-
-Double click on the Manual.dmg file in the "Installation" directory and follow the instructions therein. 
+If you would rather just run it rather than building Manual from its source, you can double click on the Manual.pkg file in the "Installation" directory and the installation of Manual will start (default /Applications on your Mac's main HDD). 
