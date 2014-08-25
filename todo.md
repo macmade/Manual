@@ -8,7 +8,7 @@ This simple "to do list" is to be used to not only track improvements or fixes t
 
 The proposed priority scheme which would allow better handling of any "to do work" is as follows:
 
-**URGENT**	this category will not exist in this project due to the fact it exists in github.
+**URGENT**	this category will not exist in this project due to the fact it exists in Github.
 
 **HIGH**	The identified work item is deemed to be high priority. If at all possible, the work item will be included in the next release of the project contents.
 
@@ -24,7 +24,11 @@ TODO004: Determine/fix why "xcodebuild" man is not found when "xcode-select" is.
 
 TODO005: Determine/fix why the MacPorts "man port" is not found. (LOW)
 
-TODO999: There will be multiples of this "TODO" used to add/alter developer-oreinted functionality.
+TODO007: Correctly fix the pagination partially corrected by TODO006 (i.e. MANWIDTH). The correct solution is to set the left margin on a printed man page to start in column one instead of much further in as occurs now. 
+
+TODO008: Some man pages such as "_exit" show page display gaps which are not present when the "man" command is used to print them. It may be possible that the temporary solution introduced in TODO006 may be causing this; further investigation is necessary before a fix can be determined. 
+
+TODO999: There will be multiples of this "TODO" used to add/alter developer-oriented functionality.
 
 ##COMPLETED ITEMS TO DATE
 
