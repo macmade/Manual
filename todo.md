@@ -18,26 +18,27 @@ The proposed priority scheme which would allow better handling of any "to do wor
 
 ##WORK ITEMS PLANNED TO DATE 
 
-TODO003: Sort the "All Selections" drop-down so they are easier to read. (LOW)
+**TODO003**: Sort the "All Selections" drop-down so they are easier to read. (LOW)
 
-TODO004: Determine/fix why "xcodebuild" man is not found when "xcode-select" is. Determine what else might be missing as well and fix that too. (MEDIUM)
+**TODO004**: Determine/fix why "xcodebuild" man is not found when "xcode-select" is. Determine what else might be missing as well and fix that too. (MEDIUM)
 
-TODO005: Determine/fix why the MacPorts "man port" is not found. (LOW)
+**TODO005**: Determine/fix why the MacPorts "man port" is not found. (LOW)
 
-TODO006: The "Print" function is truncating paragraph text on the right margin of the printed output. (HIGH)  
+**TODO006**: The "Print" function is truncating paragraph text on the right margin of the printed output. **NOTE** that setting **MANWIDTH** other than its default is **NOT** a soliton to this problem as that causes print formatting problems.) (HIGH)  
 
-TODO999: There will be multiples of this "TODO" used to add/alter developer-oriented functionality.
+**TODO999**: There will be multiples of this "TODO" used to add/alter developer-oriented functionality.
 
 ##COMPLETED ITEMS TO DATE
 
-TODO001: Add a print facility per accepted Apple UI conventions. (HIGH) 
-	*This was already in place as of version 1.02 courtesy of the author but did not work in version 1.01 (the File > Print selection was greyed out and thus unelectable).* 
+**TODO001**: Add a print facility per accepted Apple UI conventions. (HIGH) 
+*This was already in place as of version 1.02 courtesy of the author but did not work in version 1.01 (the File > Print selection was greyed out and thus unelectable).* 
 	
-TODO002: Modify Edit > Find to hold the found selection highlighting longer than it is now (less than .5 sec or less so it seems). This will help denote the found item much better. (HIGH)  COMPLETED 2014/05/17
+**TODO002**: Modify Edit > Find to hold the found selection highlighting longer than it is now (less than .5 sec or less so it seems). This will help denote the found item much better. (HIGH)  COMPLETED 2014/05/17
 
-TODO999: Added Debug.h/m files to do \_\_PRETTY_FUNCTION\_\_ class/function tracing; this is quite useful in understanding how this code hangs together.  19May2014
+**TODO999**: Added Debug.h/m files to do \_\_PRETTY_FUNCTION\_\_ class/function tracing; this is quite useful in understanding how this code hangs together.  19May2014
 
-31Jun2014 Minor cleanup of the todo.md and readme.md files.
+##PRINTING
+Note that when printing right margin truncation will generally occur in portrait mode. To ensure that truncation does not occur, print in landscape mode. We are hopeful for a solution to **TODO006** above to address this issue, but for now, landscape mode is the only sure way to avoid right-margin truncation. 
 
 ##TEST PLAN
 
