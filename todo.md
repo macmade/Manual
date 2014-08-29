@@ -24,9 +24,7 @@ TODO004: Determine/fix why "xcodebuild" man is not found when "xcode-select" is.
 
 TODO005: Determine/fix why the MacPorts "man port" is not found. (LOW)
 
-TODO007: Correctly fix the pagination partially corrected by TODO006 (i.e. MANWIDTH). The correct solution is to set the left margin on a printed man page to start in column one instead of much further in as occurs now. 
-
-TODO008: Some man pages such as "_exit" show page display gaps which are not present when the "man" command is used to print them. It may be possible that the temporary solution introduced in TODO006 may be causing this; further investigation is necessary before a fix can be determined. 
+TODO006: The "Print" function is truncating paragraph text on the left and right margins of the printed output. (HIGH)  
 
 TODO999: There will be multiples of this "TODO" used to add/alter developer-oriented functionality.
 
@@ -36,12 +34,6 @@ TODO001: Add a print facility per accepted Apple UI conventions. (HIGH)
 	*This was already in place as of version 1.02 courtesy of the author but did not work in version 1.01 (the File > Print selection was greyed out and thus unelectable).* 
 	
 TODO002: Modify Edit > Find to hold the found selection highlighting longer than it is now (less than .5 sec or less so it seems). This will help denote the found item much better. (HIGH)  COMPLETED 2014/05/17
-
-TODO006: The "Print" function is truncating paragraph text on the left and right margins of the printed output. (HIGH)  COMPLETED 2014/06/09
-(Note that MANWIDTH was set to 65 so that printing would not truncate the right-hand side of the printed output (as opposed to the screen version). I 
-am not entirely happy with this as a "solution", so I will give 
-consideration to changes that would allow as much output as possible 
-whether viewed on a screen or in printed output.)
 
 TODO999: Added Debug.h/m files to do \_\_PRETTY_FUNCTION\_\_ class/function tracing; this is quite useful in understanding how this code hangs together.  19May2014
 
