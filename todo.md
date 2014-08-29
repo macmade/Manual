@@ -24,7 +24,7 @@ The proposed priority scheme which would allow better handling of any "to do wor
 
 **TODO005**: Determine/fix why the MacPorts "man port" is not found. (LOW)
 
-**TODO006**: The "Print" function is truncating paragraph text on the right margin of the printed output. (HIGH)  
+**TODO006**: The "Print" function is truncating paragraph text on the right margin of the printed output. **NOTE** that setting **MANWIDTH** other than its default is **NOT** a soliton to this problem as that causes print formatting problems.) (HIGH)  
 
 **TODO999**: There will be multiples of this "TODO" used to add/alter developer-oriented functionality.
 

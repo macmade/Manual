@@ -126,7 +126,7 @@
         [ t setLaunchPath: @"/bin/zsh" ];
         [ t setArguments: [ NSArray arrayWithObjects: @"-c", [ NSString stringWithFormat: @"man %@ %@ | col -b | awk '{print $0}'", _section, _name ], nil ] ];
         [ t setStandardOutput: p ];
-        [ t setEnvironment: [ NSDictionary dictionaryWithObjectsAndKeys: [ NSString stringWithFormat: @"%lu", _contentsWidth ], @"MANWIDTH=65", nil ] ];
+        [ t setEnvironment: [ NSDictionary dictionaryWithObjectsAndKeys: [ NSString stringWithFormat: @"%lu", _contentsWidth ], @"MANWIDTH", nil ] ];
         
         [ t launch ];
         
