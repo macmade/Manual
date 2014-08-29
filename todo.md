@@ -31,11 +31,14 @@ The proposed priority scheme which would allow better handling of any "to do wor
 ##COMPLETED ITEMS TO DATE
 
 **TODO001**: Add a print facility per accepted Apple UI conventions. (HIGH) 
-	*This was already in place as of version 1.02 courtesy of the author but did not work in version 1.01 (the File > Print selection was greyed out and thus unelectable).* 
+*This was already in place as of version 1.02 courtesy of the author but did not work in version 1.01 (the File > Print selection was greyed out and thus unelectable).* 
 	
 **TODO002**: Modify Edit > Find to hold the found selection highlighting longer than it is now (less than .5 sec or less so it seems). This will help denote the found item much better. (HIGH)  COMPLETED 2014/05/17
 
 **TODO999**: Added Debug.h/m files to do \_\_PRETTY_FUNCTION\_\_ class/function tracing; this is quite useful in understanding how this code hangs together.  19May2014
+
+##PRINTING
+Note that when printing right margin truncation will generally occur in portrait mode. To ensure that truncation does not occur, print in landscape mode. We are hopeful for a solution to **TODO006** above to address this issue, but for now, landscape mode is the only sure way to avoid right-margin truncation. 
 
 ##TEST PLAN
 
