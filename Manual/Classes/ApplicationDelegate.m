@@ -45,7 +45,7 @@
 
 - ( void )dealloc
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     [ _aboutWindowController    release ];
     [ _mainWindowController     release ];
     
@@ -54,7 +54,7 @@
 
 - ( void )applicationDidFinishLaunching: ( NSNotification * )notification
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     ( void )notification;
     
@@ -66,7 +66,7 @@
 
 - ( NSApplicationTerminateReply )applicationShouldTerminate: ( NSApplication * )sender
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     ( void )sender;
     
@@ -75,7 +75,7 @@
 
 - ( BOOL )applicationShouldTerminateAfterLastWindowClosed: ( NSApplication * )sender
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     ( void )sender;
     
@@ -84,7 +84,7 @@
 
 - ( IBAction)showAboutWindow: ( id )sender
 {
-    NSLOG_FUNCNAME; 
+    //NSLOG_FUNCNAME; 
     
     if( _aboutWindowController == nil )
     {
@@ -97,7 +97,7 @@
 
 - ( BOOL )applicationWillTerminate: ( NSApplication * )sender
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     ( void )sender;
     
@@ -106,7 +106,7 @@
 
 - ( BOOL )applicationDidHide: ( NSApplication * )sender
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     ( void )sender;
     
@@ -115,7 +115,7 @@
 
 - ( BOOL )applicationDidUnhide: ( NSApplication * )sender
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     ( void )sender;
     
@@ -124,7 +124,7 @@
 
 - ( BOOL )applicationDidResignActive: ( NSApplication * )sender
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     ( void )sender;
     
@@ -133,7 +133,7 @@
 
 - ( BOOL )applicationDidBecomeActive: ( NSApplication * )sender
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     ( void )sender;
     

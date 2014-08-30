@@ -44,7 +44,7 @@
 
 - ( void )searchFieldValueDidChange: ( SearchField * )searchField
 {
-    NSLOG_FUNCNAME; 
+    //NSLOG_FUNCNAME; 
     
     ( void )searchField;
     

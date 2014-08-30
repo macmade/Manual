@@ -56,7 +56,7 @@
 
 - ( id )init
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     if( ( self = [ super initWithWindowNibName: @"MainWindow" ] ) )
     {
@@ -69,7 +69,7 @@
 
 - ( void )dealloc
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     [ _loadingWindow    release ];
     [ _progressBar      release ];
@@ -86,7 +86,7 @@
 
 - ( void )awakeFromNib
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     [ _searchField      setDelegate: self ];
     [ _label            setStringValue: @"" ];
@@ -99,7 +99,7 @@
 
 - ( void )showWindow: ( id )sender
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     [ super showWindow: sender ];
     [ NSApp beginSheet: _loadingWindow modalForWindow: self.window modalDelegate: self didEndSelector: @selector( didEndSheet: returnCode: contextInfo: ) contextInfo: nil ];

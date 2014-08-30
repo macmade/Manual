@@ -46,7 +46,7 @@
 
 - ( NSInteger )outlineView: ( NSOutlineView * )outlineView numberOfChildrenOfItem: ( id )item
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     NSMutableArray * pages;
     NSDictionary   * sections;
@@ -119,7 +119,7 @@
 
 - ( BOOL )outlineView: ( NSOutlineView * )outlineView isItemExpandable: ( id )item
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     ( void )outlineView;
     ( void )item;
@@ -129,7 +129,7 @@
 
 - ( id )outlineView: ( NSOutlineView * )outlineView child: ( NSInteger )index ofItem: ( id )item
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     ( void )outlineView;
     ( void )item;
@@ -144,7 +144,7 @@
 
 - ( id )outlineView: ( NSOutlineView * )outlineView objectValueForTableColumn: ( NSTableColumn * )tableColumn byItem: ( id )item
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     NSCell     * cell;
     ManualPage * page;

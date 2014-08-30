@@ -44,7 +44,7 @@
 
 - ( void )outlineViewSelectionDidChange: ( NSNotification * )notification
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     NSCell                    * cell;
     ManualPage                * page;

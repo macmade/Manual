@@ -47,7 +47,7 @@
 
 + ( ManualPage * )manualWithName: ( NSString * )n section: ( NSString * )s
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     ManualPage * man;
     
@@ -58,7 +58,7 @@
 
 - ( id )init
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     if( ( self = [ super init ] ) )
     {
@@ -70,7 +70,7 @@
 
 - ( id )initWithName: ( NSString * )n section: ( NSString * )s
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     if( ( self = [ self init ] ) )
     {
@@ -83,7 +83,7 @@
 
 - ( void )dealloc
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     [ _section  release ];
     [ _name     release ];
@@ -95,14 +95,14 @@
 
 - ( NSString * )description
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
 
     return [ [ super description ] stringByAppendingFormat: @" - %@ (%@)", _name, _section ];
 }
 
 - ( NSString * )contentsForWidth: ( NSUInteger )width
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     _contentsWidth = width;
     
@@ -111,7 +111,7 @@
 
 - ( NSString * )contents
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     NSTask   * t;
     NSPipe   * p;

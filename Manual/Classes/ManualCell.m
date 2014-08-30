@@ -44,7 +44,7 @@
 
 - ( id )init
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     if( ( self = [ super init ] ) )
     {}
