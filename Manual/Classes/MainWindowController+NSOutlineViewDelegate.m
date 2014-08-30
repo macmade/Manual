@@ -96,7 +96,6 @@
     [dict setObject:[NSColor yellowColor] forKey:@"NSBackgroundColor"];
     _textView.selectedTextAttributes = dict;
 
-    
     [ lines release ];
     [ attributedContents release ];
     

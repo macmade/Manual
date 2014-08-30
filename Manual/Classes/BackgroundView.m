@@ -123,11 +123,6 @@
             subrect.size.width  -= 2;
             subrect.size.height -= 2;
             
-            //TODO006 - attempt to stop right margin truncation
-            NSPrintInfo *currentNSPrintInfo = [NSPrintInfo sharedPrintInfo];
-            [currentNSPrintInfo setHorizontalPagination:NSFitPagination];
-            [currentNSPrintInfo setVerticalPagination:NSFitPagination];
-            
             path = [ NSBezierPath bezierPathWithRect: rect ];
             
             [ path appendBezierPath: [ NSBezierPath bezierPathWithRect: subrect ] ];

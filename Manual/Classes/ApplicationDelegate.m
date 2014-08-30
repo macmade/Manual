@@ -56,6 +56,11 @@
 {
     //NSLOG_FUNCNAME;
     
+    //TODO006 - attempt to stop right margin truncation when printed
+    NSPrintInfo *currentNSPrintInfo = [NSPrintInfo sharedPrintInfo];
+    [currentNSPrintInfo setHorizontalPagination:NSFitPagination];
+    [currentNSPrintInfo setVerticalPagination:NSFitPagination];
+    
     ( void )notification;
     
     _mainWindowController = [ MainWindowController new ];
