@@ -37,7 +37,7 @@
 
 - ( void )dealloc
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     [ _backgroundColor  release ];
     [ _borderColor      release ];
@@ -47,7 +47,7 @@
 
 - ( NSColor * )backgroundColor
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     @synchronized( self )
     {
@@ -57,7 +57,7 @@
 
 - ( void )setBackgroundColor: ( NSColor * )color
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     @synchronized( self )
     {
@@ -74,7 +74,7 @@
 
 - ( NSColor * )borderColor
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     @synchronized( self )
     {
@@ -84,7 +84,7 @@
 
 - ( void )setBorderColor: ( NSColor * )color
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     @synchronized( self )
     {
@@ -101,7 +101,7 @@
 
 - ( void )drawRect: ( NSRect )rect
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     if( _backgroundColor != nil )
     {

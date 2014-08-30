@@ -41,14 +41,14 @@
 
 - ( id )init
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     return [ self initWithWindowNibName: @"AboutWindow" owner: self ];
 }
 
 - ( void )dealloc
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     [ _backgroundView   release ];
     [ _versionText      release ];

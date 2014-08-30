@@ -48,7 +48,7 @@ static ManualHelper * __sharedInstance = nil;
 
 + ( ManualHelper * )sharedInstance
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     @synchronized( self )
     {
@@ -63,7 +63,7 @@ static ManualHelper * __sharedInstance = nil;
 
 + ( id )allocWithZone:( NSZone * )zone
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     ( void )zone;
     
@@ -75,7 +75,7 @@ static ManualHelper * __sharedInstance = nil;
 
 - ( id )copyWithZone:( NSZone * )zone
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     ( void )zone;
     
@@ -84,31 +84,31 @@ static ManualHelper * __sharedInstance = nil;
 
 - ( id )retain
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     return self;
 }
 
 - ( NSUInteger )retainCount
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     return UINT_MAX;
 }
 
 - ( oneway void )release
-{ NSLOG_FUNCNAME; }
+{  }
 
 - ( id )autorelease
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     return self;
 }
 
 - ( id )init
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     if( ( self = [ super init ] ) )
     {
@@ -120,7 +120,7 @@ static ManualHelper * __sharedInstance = nil;
 
 - ( void )dealloc
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     [ _sections release ];
     
@@ -129,7 +129,7 @@ static ManualHelper * __sharedInstance = nil;
 
 - ( void )getAllManualPages
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     NSTask              * task;
     NSPipe              * p;

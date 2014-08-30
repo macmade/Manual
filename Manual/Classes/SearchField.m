@@ -44,7 +44,7 @@
 
 - ( void )textDidChange: ( NSNotification * )notification
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     ( void )notification;
     

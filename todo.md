@@ -24,8 +24,6 @@ The proposed priority scheme which would allow better handling of any "to do wor
 
 **TODO005**: Determine/fix why the MacPorts "man port" is not found. (LOW)
 
-**TODO006**: The "Print" function is truncating paragraph text on the right margin of the printed output. **NOTE** that setting **MANWIDTH** other than its default is **NOT** a soliton to this problem as that causes print formatting problems.) (HIGH)  
-
 **TODO999**: There will be multiples of this "TODO" used to add/alter developer-oriented functionality.
 
 ##COMPLETED ITEMS TO DATE
@@ -35,10 +33,9 @@ The proposed priority scheme which would allow better handling of any "to do wor
 	
 **TODO002**: Modify Edit > Find to hold the found selection highlighting longer than it is now (less than .5 sec or less so it seems). This will help denote the found item much better. (HIGH)  COMPLETED 2014/05/17
 
-**TODO999**: Added Debug.h/m files to do \_\_PRETTY_FUNCTION\_\_ class/function tracing; this is quite useful in understanding how this code hangs together.  19May2014
+**TODO006**: The "Print" function is truncating paragraph text on the right margin of the printed output. **NOTE** that setting **MANWIDTH** other than its default is **NOT** a soliton to this problem as that causes print formatting problems.) (HIGH)  COMPLETED 20140830 
 
-##PRINTING
-Note that when printing right margin truncation will generally occur in portrait mode. To ensure that truncation does not occur, print in landscape mode. We are hopeful for a solution to **TODO006** above to address this issue, but for now, landscape mode is the only sure way to avoid right-margin truncation. 
+**TODO999**: Added Debug.h/m files to do \_\_PRETTY_FUNCTION\_\_ class/function tracing; this is quite useful in understanding how this code hangs together.  19May2014
 
 ##TEST PLAN
 

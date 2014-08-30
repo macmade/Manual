@@ -44,7 +44,7 @@
 
 - ( void )outlineViewSelectionDidChange: ( NSNotification * )notification
 {
-    NSLOG_FUNCNAME;
+    //NSLOG_FUNCNAME;
     
     NSCell                    * cell;
     ManualPage                * page;
@@ -96,7 +96,6 @@
     [dict setObject:[NSColor yellowColor] forKey:@"NSBackgroundColor"];
     _textView.selectedTextAttributes = dict;
 
-    
     [ lines release ];
     [ attributedContents release ];
     
