@@ -18,7 +18,7 @@ The proposed priority scheme which would allow better handling of any "to do wor
 
 **LOW**		the identified work item is deemed to be low priority. It will most likely only be included when escalated to a MEDIUM or a HIGH priority (or if the project developers involved are learning the code or just bored ;-) ).
 
-##WORK ITEMS PLANNED TO DATE 
+##Ope Work Itmes 
 
 **TODO003**: Sort the "All Selections" drop-down so they are easier to read. (LOW)
 
@@ -26,9 +26,7 @@ The proposed priority scheme which would allow better handling of any "to do wor
 
 **TODO005**: Determine/fix why the MacPorts "man port" is not found. (LOW)
 
-**TODO999**: There will be multiples of this "TODO" used to add/alter developer-oriented functionality.
-
-##COMPLETED ITEMS TO DATE
+##Completed Work Itmes
 
 **TODO001**: Add a print facility per accepted Apple UI conventions. (HIGH) 
 *This was already in place as of version 1.02 courtesy of the author but did not work in version 1.01 (the File > Print selection was greyed out and thus unelectable).* 
@@ -37,10 +35,11 @@ The proposed priority scheme which would allow better handling of any "to do wor
 
 **TODO006**: The "Print" function is truncating paragraph text on the right margin of the printed output. **NOTE** that setting **MANWIDTH** other than its default is **NOT** a soliton to this problem as that causes print formatting problems.) (HIGH)  COMPLETED 20140830 
 
-**TODO999**: Added Debug.h/m files to do \_\_PRETTY_FUNCTION\_\_ class/function tracing; this is quite useful in understanding how this code hangs together.  19May2014
+##Test Plan
 
-##TEST PLAN
+Presently, the test plan can be considered as very loosely planned. The currently assigned developer (Marty Turner) has tested each version release of this project on Snow Leopard (10.6), Lion (10.7), Mountain Lion (10.8), Mavericks (10.9) and Yosemite (10.10). As subsequent Mac OS X versions are released by Apple, they will be added to this list.
 
-Presently, the test plan can be considered as very loosely planned. The currently assigned developer (Marty Turner) will test the project on Mountain Lion and Mavericks. Because It will take some time to get Snow Leopard and Lion reinstalled on his test system, it will only be tested on Mountain Lion and Mavericks for the immediate future.
+###Testing Scope
+The planned testing involves manually testing and observation of key features of the Manual application. That is, simply navigating through each series of key user interface features and noting visually if they work as expected. There is currently no plan to create a series of documented test steps; the assumption will be that the developer or developers involved know enough about the functionality of the project to test it in a "reasonably" thorough manner. Although it is a good idea to formally document test procedures, it is not within the scope of the support of this project based on its current state as accessible in Github. 
 
-The planned testing will involve manually testing the key features of the application. That is, simply navigating through each series of key user interface features and noting visually if they work as expected. There is currently no plan to create a series of documented test steps; the assumption will be that the developer or developers involved know enough about the functionality of the project to test it "reasonably" thorough. Although a good idea to formally document test procedures, it is not within the scope of the support of this project based on its current state as accessible in github.
+**Note** that as of 2014/09/01 all bugs, features, and issues related to the project will be documented in a Bugzilla database; some means of making it available here will be performed as time permits (else, contact the developer). 
