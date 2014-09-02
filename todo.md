@@ -1,8 +1,10 @@
-#Todo Items
+#Todo Items 
 
-The items in this document outline work still to be done; the following sections outline the work-item structure. Note that "ToDo" items include bugs or new/changed features (bugs will normally be higher priority).
+The items in this document outline work still to be done (bugs or enhancements); the following sections outline the work-item structure. Note that "ToDo" items include bugs or new/changed features (bugs will normally be higher priority).
 
-##Introduction
+**Note** that as of 2014/09/01 a Bugzilla database has been created and will be maintained by Marty Turner on one of his local systems; from here on, BZ numbers will be included in work items. 
+
+##Introduction
 
 This simple "to do list" is to be used to not only track improvements or fixes to the code, but also as a placeholder for planned activities so that all developers involved are aware of what is being planned. Additions, changes, or deletions (hopefully first discussed before doing so on the latter) are welcome by any participants in the project.
 

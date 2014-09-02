@@ -1,0 +1,1 @@
+**On 2014/09/01 the original Manual 1.0.1 (from the ITunes App store) was placed herein for historical purposes as well as a version to compare against for legacy functionally understanding. **
