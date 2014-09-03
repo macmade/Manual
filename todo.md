@@ -18,7 +18,7 @@ The proposed priority scheme which would allow better handling of any "to do wor
 
 **LOW**		the identified work item is deemed to be low priority. It will most likely only be included when escalated to a MEDIUM or a HIGH priority (or if the project developers involved are learning the code or just bored ;-) ).
 
-##Ope Work Items 
+##Open Work Items 
 
 **TODO003**: Sort the "All Selections" drop-down so they are easier to read. (LOW)
 
@@ -29,11 +29,11 @@ The proposed priority scheme which would allow better handling of any "to do wor
 ##Completed Work Items
 
 **TODO001**: Add a print facility per accepted Apple UI conventions. (HIGH) 
-*This was already in place as of version 1.02 courtesy of the author but did not work in version 1.01 (the File > Print selection was greyed out and thus unelectable).* 
+*This was already in place as of version 1.02 courtesy of the author but did not work in version 1.01 (the File > Print selection was greyed out and thus unelectable).* *Fixed in 1.0.2*.
 	
-**TODO002**: Modify Edit > Find to hold the found selection highlighting longer than it is now (less than .5 sec or less so it seems). This will help denote the found item much better. (HIGH)  COMPLETED 2014/05/17
+**TODO002**: Modify Edit > Find to hold the found selection highlighting longer than it is now (less than .5 sec or less so it seems). This will help denote the found item much better. (HIGH)  COMPLETED 2014/05/17 *Fixed in 1.0.3*.
 
-**TODO006**: The "Print" function is truncating paragraph text on the right margin of the printed output. **NOTE** that setting **MANWIDTH** other than its default is **NOT** a soliton to this problem as that causes print formatting problems.) (HIGH)  COMPLETED 20140830 
+**TODO006**: The "Print" function is truncating paragraph text on the right margin of the printed output. **NOTE** that setting **MANWIDTH** other than its default is **NOT** a soliton to this problem as that causes print formatting problems.) (HIGH)  COMPLETED 20140830  *Fixed in 1.0.4*.
 
 ##Test Plan
 
