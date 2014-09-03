@@ -18,7 +18,7 @@ The proposed priority scheme which would allow better handling of any "to do wor
 
 **LOW**		the identified work item is deemed to be low priority. It will most likely only be included when escalated to a MEDIUM or a HIGH priority (or if the project developers involved are learning the code or just bored ;-) ).
 
-##Ope Work Itmes 
+##Ope Work Items 
 
 **TODO003**: Sort the "All Selections" drop-down so they are easier to read. (LOW)
 
@@ -26,7 +26,7 @@ The proposed priority scheme which would allow better handling of any "to do wor
 
 **TODO005**: Determine/fix why the MacPorts "man port" is not found. (LOW)
 
-##Completed Work Itmes
+##Completed Work Items
 
 **TODO001**: Add a print facility per accepted Apple UI conventions. (HIGH) 
 *This was already in place as of version 1.02 courtesy of the author but did not work in version 1.01 (the File > Print selection was greyed out and thus unelectable).* 
