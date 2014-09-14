@@ -1,6 +1,7 @@
 **/*.udb
 Build Manual Package/
 Bugs/
+Doc/
 .com.apple.timemachine.supported
 Manual.mpkg/
 
