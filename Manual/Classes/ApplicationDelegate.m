@@ -57,9 +57,10 @@
     //NSLOG_FUNCNAME;
     
     //TODO006 - attempt to stop right margin truncation when printed
+    //TODO007 - setVerticalPagination needed to be NSAutoPagination
     NSPrintInfo *currentNSPrintInfo = [NSPrintInfo sharedPrintInfo];
     [currentNSPrintInfo setHorizontalPagination:NSFitPagination];
-    [currentNSPrintInfo setVerticalPagination:NSFitPagination];
+    [currentNSPrintInfo setVerticalPagination:NSAutoPagination];
     
     ( void )notification;
     

@@ -26,6 +26,11 @@ The proposed priority scheme which would allow better handling of any "to do wor
 
 **TODO005**: Determine/fix why the MacPorts "man port" is not found. (LOW)
 
+**TODO007** Print very narrow only on some displayed man pages after fix for
+TODO006 (Bugzilla 9). While most man page text output continued to 
+print correctly after TODO006, some (such as a2p/a2x), were printed out as
+a very long/narrow column (small font) which was almost unreadable. (HIGH)
+
 ##Completed Work Items
 
 **TODO001**: Add a print facility per accepted Apple UI conventions. (HIGH) 
@@ -34,6 +39,7 @@ The proposed priority scheme which would allow better handling of any "to do wor
 **TODO002**: Modify Edit > Find to hold the found selection highlighting longer than it is now (less than .5 sec or less so it seems). This will help denote the found item much better. (HIGH)  COMPLETED 2014/05/17 *Fixed in 1.0.3*.
 
 **TODO006**: The "Print" function is truncating paragraph text on the right margin of the printed output. **NOTE** that setting **MANWIDTH** other than its default is **NOT** a soliton to this problem as that causes print formatting problems.) (HIGH)  COMPLETED 20140830  *Fixed in 1.0.4*.
+
 
 ##Test Plan
 
