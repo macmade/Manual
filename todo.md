@@ -26,11 +26,6 @@ The proposed priority scheme which would allow better handling of any "to do wor
 
 **TODO005**: Determine/fix why the MacPorts "man port" is not found. (LOW)
 
-**TODO007** Print very narrow only on some displayed man pages after fix for
-TODO006 (Bugzilla 9). While most man page text output continued to 
-print correctly after TODO006, some (such as a2p/a2x), were printed out as
-a very long/narrow column (small font) which was almost unreadable. (HIGH)
-
 ##Completed Work Items
 
 **TODO001**: Add a print facility per accepted Apple UI conventions. (HIGH) 
@@ -40,6 +35,10 @@ a very long/narrow column (small font) which was almost unreadable. (HIGH)
 
 **TODO006**: The "Print" function is truncating paragraph text on the right margin of the printed output. **NOTE** that setting **MANWIDTH** other than its default is **NOT** a soliton to this problem as that causes print formatting problems.) (HIGH)  COMPLETED 20140830  *Fixed in 1.0.4*.
 
+**TODO007** Print very narrow only on some displayed man pages after fix for
+TODO006 (Bugzilla 9). While most man page text output continued to 
+print correctly after TODO006, some (such as a2p/a2x), were printed out as
+a very long/narrow column (small font) which was almost unreadable. (HIGH) COMPLETED 20140915 Bugzilla 9 "Fixed in 1.0.5"
 
 ##Test Plan
 
