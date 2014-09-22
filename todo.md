@@ -22,8 +22,6 @@ The proposed priority scheme which would allow better handling of any "to do wor
 
 **TODO003**: Sort the "All Selections" drop-down so they are easier to read. (LOW)
 
-**TODO005**: Determine/fix why the MacPorts "man port" is not found. (LOW)
-
 ##Completed Work Items
 
 **TODO001**: Add a print facility per accepted Apple UI conventions. (HIGH) 
@@ -38,7 +36,9 @@ TODO006 (Bugzilla 9). While most man page text output continued to
 print correctly after TODO006, some (such as a2p/a2x), were printed out as
 a very long/narrow column (small font) which was almost unreadable. (HIGH) COMPLETED 20140915 Bugzilla 9 "Fixed in 1.0.5"
 
-**TODO004**: Determine/fix why "xcodebuild" man is not found when "xcode-select" is. Determine what else might be missing as well and fix that too. (MEDIUM) COMPLETED 20140923 Bugzilla 4 "Fixed in 1.0.5"
+**TODO004**: Determine/fix why "xcodebuild" man is not found when "xcode-select" is. Determine what else might be missing as well and fix that too. (MEDIUM) COMPLETED 20140923 Bugzilla 6 "Fixed in 1.0.5"
+
+**TODO005**: Determine/fix why the MacPorts "man port" is not found. (LOW) COMPLETED 2014/09/23 Bugzilla 7 "Fixed in 1.0.5" (duplicate of TODO004)
 
 ##Test Plan
 
