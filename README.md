@@ -79,3 +79,24 @@ If you run into problems where Manual does not find it can find with the "man"  
 Missing Man Page Example
 ---------------------------------------
 Another problem the Manual application maintainer ran in to was that the Xcode “xcodebuild” man page while accessible via “man -w xcodebuild” was not found with the “whatis’ command. Since the Manual application uses the “whatis” command to locate man page content, the xcodebuild man page output was not present in Manual.It turned out that the first few lines of the xcodebuild man page were corrupted; this could be seen in /usr/libexec/makewhatis output using the "-v" (verbose) option. The visible results were a message from makewhatis saying it encountered "junk" output. Once corrected, the xcodebuild man page could be once again be viewed via whatis (and thus, with the Manual application).
+
+Reporting Problems or Posing Queries 
+----------------------------
+Should you find the need to report a problem, please provide the following minimal documentation so that your reported problem/query can be more quickly and accurately answered:
+
+1. Provide a concise and as accurate as possible description of the problem and make sure you state what your exception is regarding what you want done or answered.
+
+2. If reporting a problem, please provide [screen shots](http://support.apple.com/kb/ht5775) of what you see as a problem. 
+
+3. If reporting a problem or a query regarding how you think Manual might/should behave, then please provide a copy of your /Private/etc/man.conf file.
+
+4. If reporting problem, please provide any contents you might have regarding the $MANPATH or related MAN environment variables (see man man for details).
+
+5. If reporitng a problem regarding a specific man page  or pages, then please provide a 'man -w man-page-name' text copy of the pages in question. 
+
+    e.g. man -w sed<p>
+    /usr/share/man/man1/sed.1
+    
+All of this relevant information should be provided when you first open your [issue](https://github.com/macmade/Manual/issues). 
+
+Thanks in advance for your help; the information you provide should help accelerate a satisfactory response. 
