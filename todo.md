@@ -22,6 +22,10 @@ The proposed priority scheme which would allow better handling of any "to do wor
 
 **TODO003**: Sort the "All Selections" drop-down so they are easier to read. (LOW)
 
+**TODO008** The Search function (upper right of main window) can be very slow. This is because as one types, the searched man pages are continually refreshed. This can result in viewing a very slow list in the left most window pane. (Bugzilla 10)
+
+**TODO009** Manual displays only the first man page when duplicate man pages exist. (A simple example of this can be created by installing multiple copies of Xcode, using makewhatis to build whatis databases in each man directory, and then adding those other whatis databases to /etc/man.conf.) (Bugzilla 11)
+
 ##Completed Work Items
 
 **TODO001**: Add a print facility per accepted Apple UI conventions. (HIGH) 
