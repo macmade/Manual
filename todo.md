@@ -22,9 +22,9 @@ The proposed priority scheme which would allow better handling of any "to do wor
 
 **TODO003**: Sort the "All Selections" drop-down so they are easier to read. (LOW)
 
-**TODO004**: Determine/fix why "xcodebuild" man is not found when "xcode-select" is. Determine what else might be missing as well and fix that too. (MEDIUM)
+**TODO008** The Search function (upper right of main window) can be very slow. This is because as one types, the searched man pages are continually refreshed. This can result in viewing a very slow list in the left most window pane. (Bugzilla 10)
 
-**TODO005**: Determine/fix why the MacPorts "man port" is not found. (LOW)
+**TODO009** Manual displays only the first man page when duplicate man pages exist. (A simple example of this can be created by installing multiple copies of Xcode, using makewhatis to build whatis databases in each man directory, and then adding those other whatis databases to /etc/man.conf.) (Bugzilla 11)
 
 ##Completed Work Items
 
@@ -34,6 +34,15 @@ The proposed priority scheme which would allow better handling of any "to do wor
 **TODO002**: Modify Edit > Find to hold the found selection highlighting longer than it is now (less than .5 sec or less so it seems). This will help denote the found item much better. (HIGH)  COMPLETED 2014/05/17 *Fixed in 1.0.3*.
 
 **TODO006**: The "Print" function is truncating paragraph text on the right margin of the printed output. **NOTE** that setting **MANWIDTH** other than its default is **NOT** a soliton to this problem as that causes print formatting problems.) (HIGH)  COMPLETED 20140830  *Fixed in 1.0.4*.
+
+**TODO007** Print very narrow only on some displayed man pages after fix for
+TODO006 (Bugzilla 9). While most man page text output continued to 
+print correctly after TODO006, some (such as a2p/a2x), were printed out as
+a very long/narrow column (small font) which was almost unreadable. (HIGH) COMPLETED 20140915 Bugzilla 9 "Fixed in 1.0.5"
+
+**TODO004**: Determine/fix why "xcodebuild" man is not found when "xcode-select" is. Determine what else might be missing as well and fix that too. (MEDIUM) COMPLETED 20140923 Bugzilla 6 "Fixed in 1.0.5"
+
+**TODO005**: Determine/fix why the MacPorts "man port" is not found. (LOW) COMPLETED 2014/09/23 Bugzilla 7 "Fixed in 1.0.5" (duplicate of TODO004)
 
 ##Test Plan
 
