@@ -1,9 +1,11 @@
 Manual
 ======
 
-The source for Manual can be cloned or downloaded directly from [GitHub.](https://github.com/macmade/Manual) Alternatively, you can use the following graphic button to access it:
-
 [![Build Status](https://img.shields.io/travis/macmade/Manual.svg?branch=master&style=flat)](https://travis-ci.org/macmade/Manual)
+[![Issues](http://img.shields.io/github/issues/macmade/Manual.svg?style=flat)](https://github.com/macmade/Manual/issues)
+![Status](https://img.shields.io/badge/status-active-brightgreen.svg?style=flat)
+![License](https://img.shields.io/badge/license-bsd-brightgreen.svg?style=flat)
+[![Contact](https://img.shields.io/badge/contact-@macmade-blue.svg?style=flat)](https://twitter.com/macmade)
 
 About
 -----
