@@ -58,11 +58,13 @@
     
     ( void )sender;
     
+    NSNotification *nilNotify = nil;
+    
     _currentSection = [ ( NSPopUpButton * )sender selectedTag ];
     
     [ _outlineView reloadData ];
     [ _outlineView selectRowIndexes: [ NSIndexSet indexSetWithIndex: 0 ] byExtendingSelection: NO ];
-    [ self outlineViewSelectionDidChange: nil ];
+    [ self outlineViewSelectionDidChange: nilNotify ];
     
     self.window.title = [ NSString stringWithFormat: @"%@ - %@", NSLocalizedString( @"WindowTitle", nil ), _sectionsMenu.selectedItem.title ];
 }

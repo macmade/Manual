@@ -88,7 +88,7 @@
 {
     //NSLOG_FUNCNAME;
     
-    [ _searchField      setDelegate: self ];
+    [ _searchField      setDelegate: (id)self ];
     [ _label            setStringValue: @"" ];
     [ _loadingWindow    setPreventsApplicationTerminationWhenModal: NO ];
     [ _progressBar      startAnimation: nil ];

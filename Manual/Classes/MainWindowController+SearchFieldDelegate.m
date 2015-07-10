@@ -44,7 +44,9 @@
 
 - ( void )searchFieldValueDidChange: ( SearchField * )searchField
 {
-    //NSLOG_FUNCNAME; 
+    //NSLOG_FUNCNAME;
+    
+    NSNotification * nilNotify = nil;
     
     ( void )searchField;
     
@@ -52,7 +54,7 @@
     
     _outlineViewShouldNotBecomeFirstResponder = YES;
     
-    [ self outlineViewSelectionDidChange: nil ];
+    [ self outlineViewSelectionDidChange: nilNotify ];
     
     _outlineViewShouldNotBecomeFirstResponder = NO;
 }
