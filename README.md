@@ -94,7 +94,7 @@ Should you find the need to report a problem, please provide the following minim
 
 4. If reporting problem, please provide any contents you might have regarding the $MANPATH or related MAN environment variables (see man man for details).
 
-5. If reporitng a problem regarding a specific man page  or pages, then please provide a 'man -w man-page-name' text copy of the pages in question. 
+5. If reporting a problem regarding a specific man page  or pages, then please provide a 'man -w man-page-name' text copy of the pages in question. 
 
     e.g. man -w sed<p>
     /usr/share/man/man1/sed.1
@@ -102,3 +102,7 @@ Should you find the need to report a problem, please provide the following minim
 All of this relevant information should be provided when you first open your [issue](https://github.com/macmade/Manual/issues). 
 
 Thanks in advance for your help; the information you provide should help accelerate a satisfactory response. 
+
+Mac OS X Systems Verification 
+------------------------------------
+Manual has been successfully tested on Mac OS X versions 10.6 (Snow Leopard) through 10.11 (El Capitan).
