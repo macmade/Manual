@@ -108,4 +108,4 @@ Thanks in advance for your help; the information you provide should help acceler
 
 Mac OS X Systems Verification 
 ------------------------------------
-Manual has been successfully tested on Mac OS X versions 10.6 (Snow Leopard) through 10.11 (El Capitan).
+Manual has been successfully tested on Mac OS X versions 10.6 (Snow Leopard) through 10.12 (Sierra).
